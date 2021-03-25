@@ -1,0 +1,39 @@
+********************************************************3ncü günün Tekrar kısmı:***************************
+*************************Logistic Regression***************************************************************
+- Regresyon modelimizden outlier lar olduğuna kanaat getirdikten sonra 
+- zscore hesaplıyoruz 3 sigmadan büyük -3 sigmadan küçükler outlier olabilir diye kanaat ediyoruz
+- Spam eposta uygulamasında precision kullanılabilir 
+- recall sensitivity demek.
+- 2-3 model karşılaştırırken recall mantıklı  
+- f1 score harmonik ortalama demektir aslında. 
+- sizin için önemli olana kanaat getirdikten sonra precision mı recall mı yapcağımıza karar vermeliyiz
+- auc, perfect classier ın altındaki alandır. auc alanı artarsa daha iyi öğrenir diyebiliriz.
+****************************Regularization****************************************************************
+- underfitting ve overfitting problemi
+- overfitting:--makine öğrenmek yerine ezberlemeyi tercih ediyor.Traindeki veriyi çok güzel analiz eder ama yeni veri setinde başarısız olur
+- underfitting:--dağılan veri seti üzerinde nonlineer durum varken lineer regresyon uygulmak.Verimizi programa öğremediğimizin göstergesidir
+- bias,veri setleri üzerindeki programımızın hatasıdır.
+- underfitting grafiğin sol tarafı; bias yüksek variance düşük.Feature sayısı arttırılmalı veya daha komplex model tercih edilmeli.
+- overfitting grafiğin sağ tarafı: bias düşük variance yüksek. Data arttırılabilir. Kompleksliği azaltılabilir. Modeli öğrenmeden kapatılabilir. 
+- Lasso önemli verileri silmeye çalışıyor. Temel yaklaşımı bu.
+- Veri setinde sorgu yaptırdığımızda soru işareti varsa nerde olduğunu araştırıp. Soru işaretini median ile dolduruyoruz.
+- Nominal değerle karşılaştığımızda one-hot encoding yapıyoruz. 
+- get_dummies ile kolonumuzu replace de belirttiğimiz şekilde yeni kolonlarla doldur demiş oluyoruz.
+- Hyper parameter tunning**
+- Lasso da büyük alpha değerleri vermek 0 a yaklaştırır. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
