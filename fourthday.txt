@@ -1,3 +1,4 @@
+-----------------------------------------------------------------------19:50 25.03.2021--------------------------------------------------------------
 ********************************************************3ncü günün Tekrar kısmı:***************************
 *************************Logistic Regression***************************************************************
 - Regresyon modelimizden outlier lar olduğuna kanaat getirdikten sonra 
@@ -21,10 +22,11 @@
 - get_dummies ile kolonumuzu replace de belirttiğimiz şekilde yeni kolonlarla doldur demiş oluyoruz.
 - Hyper parameter tunning**
 - Lasso da büyük alpha değerleri vermek 0 a yaklaştırır. 
-
-
-
-
+- Lassodan 0 değeri almak bağımlı değişken ile bağımsız değişkenden hiçbirşey öğrenemedi demektir. 
+********************************************************4 ncü  gün******************************************
+**************************Decision Trees **********************************************************************
+- aslında supervised ml dir . Denetimli öğrenme. 
+- decision tree classifier/regresson olarak görebiliriz.
 
 
 
