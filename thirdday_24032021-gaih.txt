@@ -1,0 +1,14 @@
+supervised denetimli demektir
+farklı 4 taneyi öğretip birtanesinde test ediyorduk cross validation
+sözel bir veri tahmin etmek istiyorsak classifaction dır
+2 den fazla future varsa multiple regresyon
+y tahmin etmeye çalıştığımız değerler oluyor
+fit modelimize bunları öğret demektir
+önemsiz değer sayısı arttıkca adjusted r square değeri düşüyor
+sep parametresi
+fearure_names kolon adlarını verir
+tahmin edilen değer artarsa hata artar
+korelasyonun negatif olması sorun yaratabilir izlenimini verir
+duplicated tekrar eden veri var mı görmemize yarar
+herhangi bir numerik değeri tahmin etmek regresyondur
+normalizasyon 0 la 1 arasına çektiğimiz yaklaşımdır
