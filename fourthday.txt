@@ -27,6 +27,26 @@
 **************************Decision Trees **********************************************************************
 - aslında supervised ml dir . Denetimli öğrenme. 
 - decision tree classifier/regresson olarak görebiliriz.
+- Amaç ağacı çok büyütmekten bütün verileri sınıflandırmış olmak.(Bunun için splitting aşaması)
+- probility of succes değeri buluyoruz split aşamasında. 
+- Sonra ağırlıklı ortalama buluyoruz. 
+- Bütün sınıflandırmayı doğru yapabilmek için doğru soruları sormak gerekiyor. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
