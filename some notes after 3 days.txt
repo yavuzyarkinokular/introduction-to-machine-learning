@@ -31,14 +31,53 @@
 - probility of succes değeri buluyoruz split aşamasında. 
 - Sonra ağırlıklı ortalama buluyoruz. 
 - Bütün sınıflandırmayı doğru yapabilmek için doğru soruları sormak gerekiyor. 
-
-
-
-
-
-
-
-
+- information gain: entropi formülü kullanıyoruz dökümandaki 
+- Entropi için öncelikle parent node hesaplıyoruz.
+- Amaç entropiyi azaltmak.
+- Interpret yorumlama demektir. 
+- Feature importance ları kendi oluşturur. Bunlar önemli bunlar değildir gibi yaklaşım sergiler. n
+- Non lineer ilişkiyide burada gözlemleyebiliyoruz
+- Karar ağaçları genellikle overfittinge meyilli.Sebebş apğacı olabildiğince sonuna kadar götürdüğü için 
+ - Global optimal decision tree bulunamayabilir. En optimize decision tree.
+- Birden fazla decision tree kullanılarak daha advance güçlü işleyiş olabiliyor. 
+- Pairplot bütün değerleri alıp içerisindeki dataları scatter ile renklendirir. 
+- İnputta varsa one hot encoding ile output da varsa labe
+- max_depth ağacın ne kadar devam edeceğini bize söylüyor. Kendimiz belirleyebiliyoruz. Accuracy e göre. 
+-  majority vote*
+- Label encoder: output u encode etme yaklaşımı
+- One hot encoding: İnputlar içerisindeki nominal dataya uyguladığımız yaklaşım 
+- cv, cross validation demek 
+- random_satate ile seed aynı şeydir. 
+- n_jobs= -1 bilgisayardaki tüm çekirdekleri çalıştırır. 
+- doğru hypermetre parametrelerini ayarladığımızda hızlı ve doğru sonuç almamız artar. 
+- trainning accuray çok yüksek test accuary çok düşükse overfitting var diyebiliriz.
+********************************************************5 ncü  gün******************************************
+UNSUPERVİSED LEARNİNG
+19:53 26.03.2021
+- Centroit algoritması popülerdir
+- Uzaklık bazlı kümeleme 
+- Distribution based clustering: Ortada bir yoğunluk var dışarı çıktıkça o kümeye ait olma olasılığı düşüyor.
+- Hiearchical: En çok müşteri segmentasyonu uygulamalarında kullanılır. Ağacı nerde kesmek istediğinize siz karar veriyorsunuz.
+- K-means algoritması işleniyor .
+- Amaç kaç kümeye bölünebileceğini görmek. Küme sayısını iyi hesaplamalıyız.
+------------- Ara verildi 19:55 26.03.2021
+------------ Başladı 20:06 26.03.2021
+- Büyük veri işlemede minibatchkmeans önemli 
+- K means uzaklık esaslı çalışan algoritmadır. 
+- Test verisetini daha önce görmemiş gibi davranıyoruz. 
+- n_ckusters=x kaça bölmek istediğimizi öğrenmek için kullanıyoruz.
+- Buradaki score accuary gibi değildir.
+- Ölçme yöntemi: Elbow method / Silhoutte Score
+- Elbow method, hangi küme kısmında kırılım gözlemliyoruz ona bakmak. 
+- Silhoutte Score: 1 ile -1 arasında değer. 1 classlar güzelce ayrılmış demek -1 yanlış ayırmışsın demek 0 ise ayrım yapılacak fark yok demektir
+- Sckitlearn içinde silhoutte_scoure fonksiyonu var onun ile çözümlemek mümkün. 
+- Cluster 0 1 2 lerden oluşan rakam dizini.
+- Inertia aslında bizim aslında elemanlar ile centroit nokta arasındaki uzaklığımızdır.Centroit nokta artarsa kümeler arası mesafe azalır.
+- Standart scailling aralarını küçültmemize yarar. 
+-****Müşteri segmentasyonunda özellikle kullanılır. 
+- En hızlı çalışan K-means classıdır.
+-------------Project details 20:37 26.03.2021
+- classifiaction algoritması kullanılacak diamond project de 
 
 
 
